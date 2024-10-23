@@ -1,0 +1,31 @@
+{
+  "template": "https://github.com/projectsyn/commodore-component-template.git",
+  "commit": "dc2c2fa3a08a3c439793708b742377f0fa831b7f",
+  "checkout": "main",
+  "context": {
+    "cookiecutter": {
+      "name": "fortune",
+      "slug": "fortune",
+      "parameter_key": "fortune",
+      "test_cases": "defaults",
+      "add_lib": "n",
+      "add_pp": "n",
+      "add_golden": "y",
+      "add_matrix": "y",
+      "add_go_unit": "n",
+      "automerge_patch": "y",
+      "automerge_patch_v0": "n",
+      "automerge_patch_regexp_blocklist": "",
+      "automerge_patch_v0_regexp_allowlist": "",
+      "automerge_minor_regexp_allowlist": "",
+      "auto_release": "y",
+      "copyright_holder": "VSHN AG <info@vshn.ch>",
+      "copyright_year": "2024",
+      "github_owner": "thobens",
+      "github_name": "component-fortune",
+      "github_url": "https://github.com/thobens/component-fortune",
+      "_template": "https://github.com/projectsyn/commodore-component-template.git"
+    }
+  },
+  "directory": null
+}

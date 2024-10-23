@@ -1,0 +1,4 @@
+parameters:
+  fortune:
+    =_metadata: {}
+    namespace: syn-fortune
