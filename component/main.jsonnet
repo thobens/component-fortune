@@ -55,7 +55,7 @@ local labelSelector = {
               name: 'fortune-container',
               ports: [
                 {
-                  containerPort: 9090,
+                  containerPort: 8080,
                   name: portName,
                 },
               ],
