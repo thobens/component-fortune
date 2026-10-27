@@ -3,7 +3,7 @@ local kube = import 'lib/kube.libjsonnet';
 local inv = kap.inventory();
 local params = inv.parameters.fortune;
 
-local namespace = 'syn-fortune';
+local namespace = params.namespace;
 local appName = 'fortune-app';
 local portName = 'fortune-port';
 local containerName = 'registry.gitlab.com/vshn/applications/fortune-go:latest';
